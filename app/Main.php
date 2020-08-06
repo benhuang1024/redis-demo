@@ -20,7 +20,7 @@ class Main extends Basic
      */
     public function run()
     {
-        $res = Redis::getRedis('test');
+        $res = Redis::getRedis('general-lock-WaitingTrackingNumberJob');
         var_dump($res);
     }
 }
